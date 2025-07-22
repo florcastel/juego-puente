@@ -15,18 +15,17 @@ El juego "Cruce del Puente" es una implementación interactiva del clásico prob
 ![Imagen 1](https://raw.githubusercontent.com/florcastel/juego-puente/main/screenshots/1.png)
 Imagen 1: Pantalla principal y menú de opciones.
 
-![Imagen 1](https://raw.githubusercontent.com/florcastel/juego-puente/main/screenshots/3.png)
-
+![Imagen 2](https://raw.githubusercontent.com/florcastel/juego-puente/main/screenshots/3.png)
 Imagen 2: Pantalla de inicio del juego, muestra de  
 Información necesaria para el jugador y validaciones de ingreso.
 
-![Imagen 1](https://raw.githubusercontent.com/florcastel/juego-puente/main/screenshots/4.png)
+![Imagen 3](https://raw.githubusercontent.com/florcastel/juego-puente/main/screenshots/4.png)
 Imagen 3: Ejemplo de desarrollo del juego, muestra por pantalla   
 tiempos parciales y acumulados, y otras validaciones de ingreso.
 
-![Imagen 1](https://raw.githubusercontent.com/florcastel/juego-puente/main/screenshots/5.png) 
+![Imagen 4](https://raw.githubusercontent.com/florcastel/juego-puente/main/screenshots/5.png)
 Imagen 4: Resolución exitosa del acertijo, muestra del tiempo total.
 
-![Imagen 1](https://raw.githubusercontent.com/florcastel/juego-puente/main/screenshots/7_creditos.png)
+![Imagen 5](https://raw.githubusercontent.com/florcastel/juego-puente/main/screenshots/7_creditos.png)
 Imagen 5: Créditos.
 
