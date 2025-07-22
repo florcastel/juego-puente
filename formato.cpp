@@ -93,27 +93,25 @@ Suerteeee
 }
 
 void mostrarPersonajes(){
-
+rlutil::setColor(rlutil::LIGHTCYAN);
     cout << R"(
-     -------------------------
-    | Personajes y tiempos:   |
-     -------------------------
-    | Yo = 1 minuto,          |
-    | Cami = 2 minutos,       |
-    | Tom s = 5 minutos,      |
-    | Bauti = 8 minutos.      |
-     -------------------------
-    )";
+ -------------------------
+| Personajes y tiempos:   |
+ -------------------------
+| Yo = 1 minuto,          |
+| Cami = 2 minutos,       |
+| Tom s = 5 minutos,      |
+| Bauti = 8 minutos.      |
+ -------------------------
+)";
+rlutil::setColor(rlutil::WHITE);
 }
 
 
 void mostrarCreditos(){
     rlutil::cls();
-
     cout << "Cr‚ditos:"<< endl;
     cout << R"(
-
-
                  ######    ######    ######
                  ######    ######    ######
                  #######   ######   ######

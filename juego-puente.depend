@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1753129890 source:c:\users\flowe\documents\_programación 1\juego-puente\juego-puente\formato.cpp
+1753204058 source:c:\users\flowe\documents\_programación 1\juego-puente\juego-puente\formato.cpp
 	<iostream>
 	"rlutil.h"
 
@@ -17,14 +17,14 @@
 	<sys/types.h>
 	<sys/time.h>
 
-1753029047 source:c:\users\flowe\documents\_programación 1\juego-puente\juego-puente\main.cpp
+1753130136 source:c:\users\flowe\documents\_programación 1\juego-puente\juego-puente\main.cpp
 	"menu.h"
 	"rlutil.h"
 	<iostream>
 
 1753029558 c:\users\flowe\documents\_programación 1\juego-puente\juego-puente\menu.h
 
-1753129837 source:c:\users\flowe\documents\_programación 1\juego-puente\juego-puente\juego.cpp
+1753164872 source:c:\users\flowe\documents\_programación 1\juego-puente\juego-puente\juego.cpp
 	<iostream>
 	"menu.h"
 	"juego.h"
@@ -32,7 +32,7 @@
 	"funciones.h"
 	"rlutil.h"
 
-1753052731 c:\users\flowe\documents\_programación 1\juego-puente\juego-puente\juego.h
+1753163477 c:\users\flowe\documents\_programación 1\juego-puente\juego-puente\juego.h
 
 1753126534 c:\users\flowe\documents\_programación 1\juego-puente\juego-puente\formato.h
 

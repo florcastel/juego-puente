@@ -10,14 +10,10 @@ int seleccionarOpcion(){
 
     int opcion;
     int opcionValida;
-
     dibujarBanner();
     mostrarMenu();
-
     cin >> opcion;
-
     opcionValida = validarOpcion(opcion);
-
     return opcionValida;
 }
 
@@ -28,7 +24,7 @@ void mostrarMenu(){
     cout << "                     Menu Principal"<< endl;
     trazarLineaCyan();
     cout << "1 - Mostrar la historia" << endl;
-    cout << "2 - Jugar Modo Tranqui (gu¡a|ayudita visual)" << endl;
+    cout << "2 - Jugar Modo Tranqui (gu¡a | ayudita visual)" << endl;
     cout << "3 - Jugar Modo Dif¡cil (solo calculadora)" << endl;
     cout << "4 - Cr‚ditos" << endl;
     trazarLineaCyan();
@@ -56,38 +52,31 @@ int validarOpcion(int opcion){
 void ejecutarOpcion(int &opcion){
 
     switch(opcion){
-
     case 1:
         mostrarHistoria();
         break;
-
     case 2:
         jugar();
         break;
-
    case 3:
         //jugarHard();
         cout << "Pr¢ximamente...\n";
         break;
-
     case 4:
-        //cout << "FC 2025 \nMateria: Programaci¢n 1 \nTUP UTN FGRP\n";
         mostrarCreditos();
         break;
-
     case 0:
         char confirmacion;
         cout << "¨Est s seguro que quer‚s salir? (s/n): ";
         cin >> confirmacion;
-        //si el usuario ingresa m s de un char va a dar error-asumimos ambiente casi ideal
         if (confirmacion == 's' || confirmacion == 'S') {
             cout << "Gracias por probar mi juego!" << endl;
         } else if (confirmacion == 'n' || confirmacion == 'N') {
             cout << "OK! Volviendo al Men£ Principal."<< endl;
-            opcion = -1; // piso el 0 con valor cualquiera para que el while de main.cpp lo tome !=0 y vuelva a men£
+            opcion = -1;
         } else {
             cout << "Tecla incorrecta! Volviendo al Men£ Principal."<< endl;
-            opcion = -1; // piso el 0 con valor cualquiera para que el while de main.cpp lo tome !=0 y vuelva a men£
+            opcion = -1;
         }
         break;
     }

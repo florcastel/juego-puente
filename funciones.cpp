@@ -1,7 +1,6 @@
 #include <iostream>
 #include "funciones.h"
 
-
 using namespace std;
 
 void mostrarVector(string v[]){
